@@ -10,7 +10,7 @@ class Song
     @@all
   end
 
-  def artist_name
-    @artist = Artist.new
+  def artist_name(artist)
+    @artist = artist
   end
 end
